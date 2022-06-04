@@ -48,10 +48,10 @@
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://WiktorqXX.com",
+    "siteUrl": "https://WiktorqXX.github.io",
     "cookiesAlert": false,
     "gdpr": false,
-    "google-analytics": "G-CLFXQNT7PF"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
