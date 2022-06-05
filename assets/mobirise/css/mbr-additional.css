@@ -704,8 +704,14 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-t7SoO2PTLZ .navbar-dropdown {
-  position: relative !important;
+.cid-t7SoO2PTLZ {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-t7SoO2PTLZ nav.navbar {
+  position: fixed;
 }
 .cid-t7SoO2PTLZ .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1029,6 +1035,7 @@ a {
 }
 .cid-t7SoO2PTLZ .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-t7SoO2PTLZ a.nav-link {
   display: flex;
