@@ -704,14 +704,8 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-t7SoO2PTLZ {
-  z-index: 1000;
-  width: 100%;
-  position: relative;
-  min-height: 60px;
-}
-.cid-t7SoO2PTLZ nav.navbar {
-  position: fixed;
+.cid-t7SoO2PTLZ .navbar-dropdown {
+  position: relative !important;
 }
 .cid-t7SoO2PTLZ .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -993,7 +987,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #4479d9;
+  background-color: #000000;
 }
 .cid-t7SoO2PTLZ button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1035,7 +1029,6 @@ a {
 }
 .cid-t7SoO2PTLZ .navbar-dropdown {
   padding: 0 1rem;
-  position: fixed;
 }
 .cid-t7SoO2PTLZ a.nav-link {
   display: flex;
